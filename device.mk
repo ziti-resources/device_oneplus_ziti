@@ -65,6 +65,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# OPlus camera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 # Sensors
 PRODUCT_PACKAGES += \
     vendor.lineage.oplus_als.service
