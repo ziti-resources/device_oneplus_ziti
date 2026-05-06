@@ -31,6 +31,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
+$(call inherit-product-if-exists, vendor/oneplus/ir/config.mk)
+
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.oplus
 
