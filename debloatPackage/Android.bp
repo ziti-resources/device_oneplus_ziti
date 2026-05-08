@@ -4,8 +4,13 @@ cc_prebuilt_binary {
         "AudioFX",
         "Browser",
         "Browser2",
+        "Chrome-Stub",
+        "GeminiShell_227",
         "Jelly",
-        "MusicFX"
+        "MusicFX",
+        "TrichromeLibrary-Stub",
+        "webview",
+        "WebviewGoogle-Stub"
     ],
     strip: {
         none: true
