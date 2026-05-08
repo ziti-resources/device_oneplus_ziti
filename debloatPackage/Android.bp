@@ -1,7 +1,14 @@
 cc_prebuilt_binary {
     name: "debloatPackage",
     overrides: [
+        "arcore-1.48",
         "AudioFX",
+        "Chrome-Stub",
+        "GeminiShell_227",
+        "GooglePrintRecommendationService",
+        "GoogleTTS",
+        "LocationHistoryPrebuilt",
+        "MatLog",
         "Gramophone",
         "Music",
         "MusicFX",
