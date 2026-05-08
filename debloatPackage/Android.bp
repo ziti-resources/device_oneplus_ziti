@@ -1,0 +1,15 @@
+cc_prebuilt_binary {
+    name: "debloatPackage",
+    overrides: [
+        "AudioFX",
+        "Browser",
+        "Browser2",
+        "Jelly",
+        "MusicFX"
+    ],
+    strip: {
+        none: true
+    },
+    srcs: ["debloatPackage"],
+    check_elf_files: false
+}
