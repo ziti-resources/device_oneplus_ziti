@@ -1,0 +1,16 @@
+cc_prebuilt_binary {
+    name: "debloatPackage",
+    overrides: [
+        "AudioFX",
+        "Gramophone",
+        "Music",
+        "MusicFX",
+        "Recorder",
+        "Twelve"
+    ],
+    strip: {
+        none: true
+    },
+    srcs: ["debloatPackage"],
+    check_elf_files: false
+}
