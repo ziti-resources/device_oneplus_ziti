@@ -6,11 +6,15 @@ cc_prebuilt_binary {
         "Browser2",
         "Chrome-Stub",
         "GeminiShell_227",
+        "Gramophone",
         "Jelly",
+        "Jellyfish",
+        "Music",
         "MusicFX",
         "TrichromeLibrary-Stub",
         "webview",
-        "WebviewGoogle-Stub"
+        "WebviewGoogle-Stub",
+        "Recorder"
     ],
     strip: {
         none: true
