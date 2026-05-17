@@ -14,7 +14,8 @@ cc_prebuilt_binary {
         "TrichromeLibrary-Stub",
         "webview",
         "WebviewGoogle-Stub",
-        "Recorder"
+        "Recorder",
+        "twelve"
     ],
     strip: {
         none: true
